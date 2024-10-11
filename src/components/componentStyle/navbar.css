@@ -83,6 +83,10 @@ nav button {
 }
 
 @media screen and (max-width: 950px) {
+    nav {
+        justify-content: flex-start;
+    }
+
     #navLinkContainer {
         display: none;
     }

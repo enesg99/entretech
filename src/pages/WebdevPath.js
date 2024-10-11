@@ -1,4 +1,5 @@
 import TrackPathContainer from '../components/trackPathContainer';
+import Footer from '../components/footer';
 
 function WebDevPath() {
     return (
@@ -27,6 +28,7 @@ function WebDevPath() {
                 name: "4. JavaScript",
                 content: "Deine erste Programmiersprache. Früher nur für die Logik einer Website verwendet, heute aber ein Allrounder."
             }} />
+            <Footer />
         </>
     );
 }

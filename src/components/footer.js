@@ -4,7 +4,7 @@ function Footer() {
     return ( 
         <>
             <footer>
-                <section style={{display: 'flex', width: '80%', justifyContent: 'space-around'}}>
+                <section id='footerTop'>
                     <div>
                         Social Media
                     </div>
@@ -13,11 +13,11 @@ function Footer() {
                     </div>
                 </section>
                 <hr />
-                <section style={{display: 'flex', width: '80%', justifyContent: 'space-between'}}>
+                <section id='footerBottom'>
                     <div>
-                        EntreTech GmbH
+                        EntreTech
                     </div>
-                    <div style={{display: 'flex', width: '80%', justifyContent: 'flex-end', gap: '20px'}}>
+                    <div id='legals'>
                         <p>AGB</p>
                         <p>Impressum</p>
                         <p>Datenschutzerklärung</p>

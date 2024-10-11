@@ -10,6 +10,8 @@
     display: flex;
     justify-content: center;
     gap: 50px;
+    max-width: 100%;
+    flex-wrap: wrap;
 }
 
 .trackContainer {
@@ -29,4 +31,8 @@
 a {
     text-decoration: none;
     color: black;
+}
+
+@media screen and (max-width: 768px) {
+
 }
