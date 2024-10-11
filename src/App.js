@@ -11,7 +11,7 @@ import WebdevJavascript from "./pages/Webdev/Javascript";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/entretech">
     <Routes>
       <Route path="/" element={<Navbar />}>
         <Route path="/" index element={<Homepage />} />
