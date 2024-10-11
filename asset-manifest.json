@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/entretech/static/css/main.d41a4df0.css",
+    "main.js": "/entretech/static/js/main.ab4e974f.js",
+    "static/media/Brainpic.jpg": "/entretech/static/media/Brainpic.5e264c9d1c1d68faec18.jpg",
+    "index.html": "/entretech/index.html",
+    "main.d41a4df0.css.map": "/entretech/static/css/main.d41a4df0.css.map",
+    "main.ab4e974f.js.map": "/entretech/static/js/main.ab4e974f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d41a4df0.css",
+    "static/js/main.ab4e974f.js"
+  ]
+}
