@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/entretech/static/css/main.d41a4df0.css",
-    "main.js": "/entretech/static/js/main.ab4e974f.js",
+    "main.css": "/entretech/static/css/main.f4b1b376.css",
+    "main.js": "/entretech/static/js/main.e6c9027c.js",
     "static/media/Brainpic.jpg": "/entretech/static/media/Brainpic.5e264c9d1c1d68faec18.jpg",
+    "static/media/Logo.png": "/entretech/static/media/Logo.6a90791a6ad9f2ab6584.png",
     "index.html": "/entretech/index.html",
-    "main.d41a4df0.css.map": "/entretech/static/css/main.d41a4df0.css.map",
-    "main.ab4e974f.js.map": "/entretech/static/js/main.ab4e974f.js.map"
+    "main.f4b1b376.css.map": "/entretech/static/css/main.f4b1b376.css.map",
+    "main.e6c9027c.js.map": "/entretech/static/js/main.e6c9027c.js.map"
   },
   "entrypoints": [
-    "static/css/main.d41a4df0.css",
-    "static/js/main.ab4e974f.js"
+    "static/css/main.f4b1b376.css",
+    "static/js/main.e6c9027c.js"
   ]
 }
