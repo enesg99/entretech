@@ -1,6 +1,7 @@
 import { Outlet, Link } from "react-router-dom";
 import "./componentStyle/navbar.css"; 
 import { useState } from "react";
+import Logo from "../images/Logo.png"
 
 function Navbar() {
 
@@ -14,14 +15,7 @@ function Navbar() {
     <>
       <nav>
         <div id="logoContainer">
-          <div id='logo'>
-            <span style={{ width: '20px', height: '20px', border: '1px solid black', 
-                  backgroundColor: 'white', display: 'block', borderRadius: '5px' }}>
-            </span>
-            <span style={{ width: '20px', height: '20px', border: '1px solid black', backgroundColor: 'black',
-                  display: 'block', position: 'relative', top: '-27px', left: '-7px', borderRadius: '5px' }}>
-            </span>
-          </div>
+          <img src={Logo} id="logo" alt="Entretech Logo" />
           <div style={{marginLeft: '10px'}}>
             <Link to='/' style={{fontSize: '24px', fontWeight: '800'}}>EntreTech</Link>
             <p>Your passion is our mission</p>
