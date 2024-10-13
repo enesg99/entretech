@@ -22,7 +22,7 @@ hr {
 #footerTop {
     display: flex;
     width: 80%;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #footerBottom {
