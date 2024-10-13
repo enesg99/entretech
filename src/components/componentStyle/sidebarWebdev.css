@@ -35,6 +35,18 @@
     padding: 15px;
 }
 
-.sbHamburgerMenuItems  li {
-    margin: 10px 0;
+.sbHamburgerMenuItems li {
+    padding: 10px;
+}
+
+.sbHamburgerMenuItems li:hover {
+    background-color: lightcyan;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .sbHamburgerMenuItems {
+        width: 50%;
+    }
 }

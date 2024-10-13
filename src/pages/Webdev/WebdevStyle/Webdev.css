@@ -1,5 +1,44 @@
 .webdevContainer {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+}
+
+.webdevContainer h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.contentContainer {
+    display: flex;
     align-items: center;
+    margin: 50px 100px 0 100px;
+    padding: 20px;
+    background-color: whitesmoke;
+    gap: 20px;
+}
+
+.textContent {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    flex: 2;
+    width: 80%;
+}
+
+.contentContainer img {
+    width: 20%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .contentContainer {
+        margin: 30px;
+        flex-direction: column;
+    }
+
+    .contentContainer img {
+        display: none;
+    }
 }
