@@ -1,6 +1,5 @@
 import './pagesStyle/Trackpage.css'
 import {Link} from "react-router-dom"
-import Footer from '../components/footer';
 
 function TrackPage() {
     return ( 
@@ -25,7 +24,6 @@ function TrackPage() {
                     </div>
                 </Link>
             </div>
-            <Footer />
         </>
     );
 }

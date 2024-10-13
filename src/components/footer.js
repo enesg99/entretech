@@ -1,4 +1,5 @@
 import './componentStyle/footer.css';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return ( 
@@ -18,9 +19,8 @@ function Footer() {
                         EntreTech
                     </div>
                     <div id='legals'>
-                        <p>AGB</p>
-                        <p>Impressum</p>
-                        <p>Datenschutzerklärung</p>
+                        <Link to='/impressum'>Impressum</Link>
+                        <Link to='/privacypolicy'>Datenschutzerklärung</Link>
                     </div>
                 </section>
             </footer>

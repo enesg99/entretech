@@ -1,5 +1,4 @@
 import './pagesStyle/Homepage.css'
-import Footer from '../components/footer';
 import BrainPic from '../images/Brainpic.jpg';
 
 function Homepage() {
@@ -13,7 +12,6 @@ function Homepage() {
             <div>
                 <img style={{width:"100%", marginTop: "40px"}} src={BrainPic} alt='Brainpic' />
             </div>
-            <Footer />
         </>
     );
 }

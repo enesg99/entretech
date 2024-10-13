@@ -1,0 +1,17 @@
+.legalContainer {
+    margin: 50px 100px;
+}
+
+.legalTextContainer {
+    margin: 30px 0;
+}
+
+.legalTextContainer h2 {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .legalContainer {
+        margin: 50px 40px;
+    }
+}

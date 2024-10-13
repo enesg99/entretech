@@ -1,5 +1,4 @@
 import Sidebar from "../../components/sidebarWebdev";
-import Footer from "../../components/footer"
 import "./WebdevStyle/Webdev.css";
 import laptop from "../../images/laptop.png"
 import network from "../../images/network.png"
@@ -72,7 +71,6 @@ function Basics() {
                 </div>
             </div>
             <Sidebar />
-            <Footer />
         </>
     );
 }
