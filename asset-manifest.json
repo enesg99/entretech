@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/entretech/static/css/main.f4b1b376.css",
-    "main.js": "/entretech/static/js/main.e6c9027c.js",
+    "main.css": "/entretech/static/css/main.6d5ba40d.css",
+    "main.js": "/entretech/static/js/main.8b18ea78.js",
     "static/media/Brainpic.jpg": "/entretech/static/media/Brainpic.5e264c9d1c1d68faec18.jpg",
+    "static/media/programmingLang.png": "/entretech/static/media/programmingLang.3a32abca3c690ba6de31.png",
+    "static/media/programmer.png": "/entretech/static/media/programmer.47cd978d16fb2e07c43f.png",
+    "static/media/network.png": "/entretech/static/media/network.ee1f849b409b0d8d6040.png",
+    "static/media/ai.png": "/entretech/static/media/ai.7bbf47d782bc93ff6e17.png",
     "static/media/Logo.png": "/entretech/static/media/Logo.6a90791a6ad9f2ab6584.png",
+    "static/media/laptop.png": "/entretech/static/media/laptop.f06b9cd8066052dc4087.png",
     "index.html": "/entretech/index.html",
-    "main.f4b1b376.css.map": "/entretech/static/css/main.f4b1b376.css.map",
-    "main.e6c9027c.js.map": "/entretech/static/js/main.e6c9027c.js.map"
+    "main.6d5ba40d.css.map": "/entretech/static/css/main.6d5ba40d.css.map",
+    "main.8b18ea78.js.map": "/entretech/static/js/main.8b18ea78.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4b1b376.css",
-    "static/js/main.e6c9027c.js"
+    "static/css/main.6d5ba40d.css",
+    "static/js/main.8b18ea78.js"
   ]
 }
