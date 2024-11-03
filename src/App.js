@@ -15,28 +15,28 @@ import PrivacyPolicy from "./pages/Legal/PrivacyPolicy";
 function App() {
   return (
     <BrowserRouter basename="/entretech">
-  <Routes>
-    <Route
-      path="/"
-      element={
-        <>
-          <Navbar />
-          <Footer />
-        </>
-      }
-    >
-      <Route path="/" index element={<Homepage />} />
-      <Route path="/tracks" element={<Trackpage />} />
-      <Route path="/tracks/webdevpath" element={<WebdevPath />} />
-      <Route path="/tracks/webdevpath/basics" element={<WebdevBasics />} />
-      <Route path="/tracks/webdevpath/html" element={<WebdevHtml />} />
-      <Route path="/tracks/webdevpath/css" element={<WebdevCss />} />
-      <Route path="/tracks/webdevpath/javascript" element={<WebdevJavascript />} />
-      <Route path="/impressum" element={<Impressum />} />
-      <Route path="/privacypolicy" element={<PrivacyPolicy />} />
-    </Route>
-  </Routes>
-</BrowserRouter>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Navbar />
+              <Footer />
+            </>
+          }
+        >
+          <Route path="/" index element={<Homepage />} />
+          <Route path="/tracks" element={<Trackpage />} />
+          <Route path="/tracks/webdevpath" element={<WebdevPath />} />
+          <Route path="/tracks/webdevpath/basics" element={<WebdevBasics />} />
+          <Route path="/tracks/webdevpath/html" element={<WebdevHtml />} />
+          <Route path="/tracks/webdevpath/css" element={<WebdevCss />} />
+          <Route path="/tracks/webdevpath/javascript" element={<WebdevJavascript />} />
+          <Route path="/impressum" element={<Impressum />} />
+          <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

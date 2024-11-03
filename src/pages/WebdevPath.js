@@ -17,7 +17,7 @@ function WebDevPath() {
                 name: "2. HTML",
                 content: "Eine Skriptsprache, mit der du den Inhalt einer Website steuerst."
             }} />
-            <TrackPathContainer topic={{ 
+            {/* <TrackPathContainer topic={{ 
                 url: "css",
                 name: "3. CSS",
                 content: "Eine Skriptsprache, die für das Styling der Seite verantwortlich ist."
@@ -26,7 +26,7 @@ function WebDevPath() {
                 url: "javascript",
                 name: "4. JavaScript",
                 content: "Deine erste Programmiersprache. Früher nur für die Logik einer Website verwendet, heute aber ein Allrounder."
-            }} />
+            }} /> */}
         </>
     );
 }

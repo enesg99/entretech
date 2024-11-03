@@ -23,6 +23,14 @@ function TrackPage() {
                         </p>
                     </div>
                 </Link>
+                {/* <div className="trackContainer">
+                    <h2>Entrepeneurship 101</h2>
+                    <p style={{marginTop:'20px'}}>
+                        COMING SOON: <br />
+                        Wie melde ich eine Firma an? Was muss ich beachten? Wie finde ich eine Geschäftsidee?
+                        Das und vieles mehr bald in unserem Entrepeneurship 101 Kurs!
+                    </p>
+                </div> */}
             </div>
         </>
     );

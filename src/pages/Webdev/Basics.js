@@ -13,7 +13,7 @@ function Basics() {
     return ( 
         <>
             <div className="webdevContainer">
-                <h1>Basics</h1>
+                <h1 id="title">Basics</h1>
                 <div className="contentContainer">
                     <div className="textContent">
                         <h2>Computer</h2>

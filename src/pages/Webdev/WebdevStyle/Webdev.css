@@ -4,7 +4,7 @@
     align-items: flex-start;
 }
 
-.webdevContainer h1 {
+#title {
     width: 100%;
     text-align: center;
 }
@@ -27,6 +27,10 @@
     width: 80%;
 }
 
+.textContent h1 {
+    text-align: left;
+}
+
 .contentContainer img {
     width: 20%;
 }
@@ -34,6 +38,12 @@
 .textContent a {
     color: blue;
     text-decoration: underline;
+}
+
+pre {
+    background-color: gainsboro;
+    margin: 20px;
+    padding: 20px;
 }
 
 
